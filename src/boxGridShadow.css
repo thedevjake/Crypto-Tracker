@@ -8,8 +8,21 @@
   position: relative;
   top: 10rem;
   left: 4.5rem;
-  height: 20rem;
+  height: 15rem;
   width: 200px;
   border-radius: 10px;
   background-color: rgb(191, 191, 241)
+}
+
+@media only screen and (min-width: 320px) and (max-width: 770px) {
+  div.boxGridShadow {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  div.boxGridShadow>div {
+    height: 20rem;
+    width: 20rem;
+    margin-left: 15rem;
+  }
 }

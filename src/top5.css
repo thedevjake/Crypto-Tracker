@@ -7,15 +7,15 @@ div.top5 {
   grid-gap: 4rem;
 }
 
-div.top5 > div {
+div.top5>div {
   background-color: white;
-  height: 20rem;
+  height: 15rem;
   width: 200px;
   border-radius: 10px;
   background-color: white;
 }
 
-div.top5 > div > h1 {
+div.top5>div>h1 {
   position: relative;
   top: -1rem;
   left: 0.8rem;
@@ -23,7 +23,7 @@ div.top5 > div > h1 {
   font-size: 2rem;
 }
 
-div.top5 > div > h2 {
+div.top5>div>h2 {
   font-size: 35px;
   position: relative;
   top: -2rem;
@@ -32,7 +32,7 @@ div.top5 > div > h2 {
   white-space: nowrap;
 }
 
-div.top5 > div > h3 {
+div.top5>div>h3 {
   position: relative;
   top: -2rem;
   text-decoration: underline;
@@ -40,25 +40,15 @@ div.top5 > div > h3 {
   font-size: 25px;
 }
 
-div.top5 > div > h3.price {
-  font-size: 25px;
-  position: relative;
-  top: -3.6rem;
-}
 
-h4.mkt-cap {
+h4.price {
   font-size: 20px;
   position: relative;
   top: -3.2rem;
   text-align: center;
 }
 
-h4.cur-price {
-  font-size: 20px;
-  position: relative;
-  top: -5rem;
-  text-align: center;
-}
+
 
 #buy-now {
   background-color: white;
@@ -70,7 +60,7 @@ h4.cur-price {
   height: 4rem;
   width: 20rem;
   position: absolute;
-  top: 24rem;
+  top: 19rem;
   left: 28rem;
   cursor: pointer;
 }
@@ -87,8 +77,73 @@ h4.cur-price {
 #button-shadow {
   background-color: rgb(191, 191, 241);
   position: absolute;
-  top: 24.3rem;
+  top: 19.3rem;
   left: 27.5rem;
   height: 4rem;
   width: 20rem;
+}
+
+p {
+  color: white;
+  font-size: 22px;
+  position: absolute;
+  top: 25rem;
+  left: 28rem;
+  white-space: nowrap;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 770px) {
+  div.top5 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  div.top5>div {
+    height: 20rem;
+    width: 20rem;
+    margin-left: 15rem;
+  }
+
+  #button-shadow {
+    position: absolute;
+    top: 125rem;
+    left: -.5rem;
+    height: 4rem;
+    width: 20rem;
+  }
+
+  #buy-now {
+
+    position: absolute;
+    top: 124.5rem;
+    left: 15rem;
+    cursor: pointer;
+  }
+
+  p {
+
+    position: absolute;
+    top: 135rem;
+    left: 15rem;
+    white-space: nowrap;
+  }
+
+  div.top5>div>h2 {
+    font-size: 45px;
+  }
+
+  div.top5>div>h3 {
+
+    font-size: 35px;
+  }
+
+
+  h4.price {
+    font-size: 30px;
+
+  }
+
+
+
+
 }

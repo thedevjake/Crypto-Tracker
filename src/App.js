@@ -10,15 +10,25 @@ class App extends Component {
         <h1 id="logo">CoinTrack</h1>
         <ul className="nav">
           <li>
-            <a href="#">Home</a>
+            <a href="/" rel="noopener noreferrer">
+              Home
+            </a>
           </li>
           <li>
-            <a target="_blank" href="https://www.cointelegraph.com">
+            <a
+              target="_blank"
+              href="https://www.cointelegraph.com"
+              rel="noopener noreferrer"
+            >
               News
             </a>
           </li>
           <li>
-            <a target="_blank" href="https://www.coinbase.com">
+            <a
+              target="_blank"
+              href="https://www.coinbase.com"
+              rel="noopener noreferrer"
+            >
               Buy
             </a>
           </li>
