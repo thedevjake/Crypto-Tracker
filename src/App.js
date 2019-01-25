@@ -1,25 +1,30 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
+import BoxGridShadow from "./boxGridShadow";
+import Top5 from "./top5";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <h1 id="logo">CoinTrack</h1>
+        <ul className="nav">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a target="_blank" href="https://www.cointelegraph.com">
+              News
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="https://www.coinbase.com">
+              Buy
+            </a>
+          </li>
+        </ul>
+        <BoxGridShadow />
+        <Top5 />
       </div>
     );
   }

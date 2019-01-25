@@ -1,0 +1,15 @@
+.boxGridShadow {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 4rem;
+}
+
+.boxGridShadow>div {
+  position: relative;
+  top: 10rem;
+  left: 4.5rem;
+  height: 20rem;
+  width: 200px;
+  border-radius: 10px;
+  background-color: rgb(191, 191, 241)
+}

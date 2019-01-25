@@ -1,0 +1,94 @@
+div.top5 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  position: absolute;
+  top: 13rem;
+  left: 5.5rem;
+  grid-gap: 4rem;
+}
+
+div.top5 > div {
+  background-color: white;
+  height: 20rem;
+  width: 200px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+div.top5 > div > h1 {
+  position: relative;
+  top: -1rem;
+  left: 0.8rem;
+  color: #1f38b7;
+  font-size: 2rem;
+}
+
+div.top5 > div > h2 {
+  font-size: 35px;
+  position: relative;
+  top: -2rem;
+  color: rgb(39, 70, 224);
+  text-align: center;
+  white-space: nowrap;
+}
+
+div.top5 > div > h3 {
+  position: relative;
+  top: -2rem;
+  text-decoration: underline;
+  text-align: center;
+  font-size: 25px;
+}
+
+div.top5 > div > h3.price {
+  font-size: 25px;
+  position: relative;
+  top: -3.6rem;
+}
+
+h4.mkt-cap {
+  font-size: 20px;
+  position: relative;
+  top: -3.2rem;
+  text-align: center;
+}
+
+h4.cur-price {
+  font-size: 20px;
+  position: relative;
+  top: -5rem;
+  text-align: center;
+}
+
+#buy-now {
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  color: rgb(26, 61, 231);
+  font-size: 35px;
+  font-weight: bolder;
+  height: 4rem;
+  width: 20rem;
+  position: absolute;
+  top: 24rem;
+  left: 28rem;
+  cursor: pointer;
+}
+
+#buy-now:hover {
+  background-color: whitesmoke;
+  color: rgb(21, 58, 245);
+}
+
+#buy-now:focus {
+  outline: 0;
+}
+
+#button-shadow {
+  background-color: rgb(191, 191, 241);
+  position: absolute;
+  top: 24.3rem;
+  left: 27.5rem;
+  height: 4rem;
+  width: 20rem;
+}
