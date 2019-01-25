@@ -1,9 +1,10 @@
-#CoinTrack
+# CoinTrack
 
-Tracks 5 Cryptocurrencies current prices.
-Built with React, using Nomics API
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-#To Use
+CoinTrack tracks 5 Crypto Currency Prices
+
+# To use
 
 1. Get API Key from Nomics
 2. In apiKey file set the variable apiKey to your key ( make sure its in quotes)
