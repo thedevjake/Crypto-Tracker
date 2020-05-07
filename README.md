@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-CoinTrack tracks 5 Crypto Currency Prices
+Cypto Tracker tracks 5 Crypto Currency Prices
 
 # To use
 
